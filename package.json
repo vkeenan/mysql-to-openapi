@@ -1,0 +1,14 @@
+{
+  "name": "mysql-to-openapi",
+  "version": "0.1.0",
+  "description": "Generate OpenAPI 2.0 schema definitions from existing MySQL database",
+  "main": "index.js",
+  "repository": "https://github.com/vkeenan/mysql-to-openapi",
+  "author": "vkeenan@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "mysql": "^2.18.1"
+  }
+}
