@@ -1,4 +1,4 @@
-# MySQL to OpenAPI [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# MySQL to OpenAPI
 
 MySQL to OpenAPI is a simple script that generates an OpenAPI 2.0 (formerly known as Swagger) YAML file from your MySQL database schema. The generated YAML file will include definitions for each table in your schema, as well as basic CRUD operations for each table.
 

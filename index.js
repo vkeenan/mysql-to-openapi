@@ -1,12 +1,14 @@
 const fs = require("fs");
 const mysql = require("mysql");
 const yaml = require("js-yaml");
+require("dotenv").config();
 
 const connection = mysql.createConnection({
-  host: "192.168.41.21",
-  user: "web",
-  password: process.env.VERNONKEENAN_DBMS_PASSWORD,
   database: process.env.DB_NAME,
+  username: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT,
 });
 
 function toCamelCase(str) {
