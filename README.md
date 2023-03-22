@@ -2,6 +2,8 @@
 
 MySQL to OpenAPI is a simple script that generates an OpenAPI 2.0 (formerly known as Swagger) YAML file from your MySQL database schema. The generated YAML file will include definitions for each table in your schema, as well as basic CRUD operations for each table.
 
+Read about how this open-source contribution was made: [Using ChatGPT to generate Swagger from MySQL with mysql-to-openapi.js](https://salesforcedevops.net/index.php/2023/03/22/using-chatgpt-to-generate-swagger-from-mysql-with-mysql-to-openapi-js/)
+
 ## Prerequisites
 
 - Node.js (12.x or later)
